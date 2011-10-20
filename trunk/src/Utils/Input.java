@@ -9,5 +9,9 @@ package Utils;
  * @author AHEMOH
  */
 public class Input {
-    
+    public static String SomeString(String str) {
+    String tempstr;
+    tempstr = "HelloWorld";
+    return (str+" "+tempstr);   
+    }
 }
